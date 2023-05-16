@@ -1,0 +1,47 @@
+/* Padrão em diversos elementos */
+
+/* html e body com a altura 100% da tela */
+html, body {
+    height: 100%;
+}
+
+/* Fonte do projeto, margem dos elementos, os paddins e a cor de fundo */
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        180deg, 
+        rgba(9, 35, 175, 1) 0%, 
+        rgba(0, 0, 0, 1) 100%
+        );
+    color: #fff;
+}
+
+button {
+    /* cor de fundo */
+    background: #1646a0; 
+    /* cor de texto */
+    color: #fff; 
+    /* topo 0 e laterais 45 */
+    padding:  0 45px; 
+    border: 2px solid #fff;
+    /* espectro arredondado nos cantos do botão */
+    border-radius: 25px; 
+    /* altura */
+    height: 50px;
+    /* letras maiusculas */
+    text-align: uppercase;
+    /* texto em negrito */
+    font-weight: bold;
+    /* aumentar fonte do botao */
+    font-size: 1.2em;
+    /* maozinha */
+    cursor: pointer;
+    /* poder efeito hover */
+    transition: 2s;
+}
+
+button:hover {
+    background-color: #3e59f1;
+}

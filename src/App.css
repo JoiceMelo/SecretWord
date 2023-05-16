@@ -1,0 +1,7 @@
+/* Alinhar tudo ao centro (vertical central e horizontal central) */
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
